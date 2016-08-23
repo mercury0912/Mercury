@@ -1,3 +1,8 @@
-.metadata
-RemoteSystemsTempFiles
-HelloWorld/Debug
+# Eclipse generated files #
+###########################
+.project
+.cproject
+.settings
+.metadata/
+RemoteSystemsTempFiles/
+HelloWorld/Debug/
