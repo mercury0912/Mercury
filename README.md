@@ -3,3 +3,5 @@
 Hi, everybody!
 
 Just another repository
+
+Creating a new branch is easy.
