@@ -4,4 +4,4 @@ Hi, everybody!
 
 Just another repository
 
-Creating a new branch is easy.
+Creating a new branch is easy && quick.
