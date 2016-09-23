@@ -54,3 +54,5 @@ local.properties
 
 build/
 config.make
+.ycm_extra_conf.py
+tags

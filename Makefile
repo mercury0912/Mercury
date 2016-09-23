@@ -34,6 +34,9 @@ mercury-clean:
 samples:
 	$(MAKE) -C $(MERCURY_BASE)/samples
 
+tags:
+	ctags -R --c++-kinds=+l+x+p --c-kinds=+l+x+p --fields=+iaSl --extra=+q
+
 clean: cleans
 
 distclean:
