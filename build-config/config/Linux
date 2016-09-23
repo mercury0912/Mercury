@@ -1,0 +1,48 @@
+#
+# Linux
+#
+# Make seetings for Linux
+#
+#
+
+# 
+# General Settings
+#
+LINKMODE ?= SHARED
+
+#
+# Define Tools
+#
+CC        = gcc
+CXX       = g++
+LINK      = $(CXX)
+LIB       = ar -cr
+RANLIB    = ranlib
+RM        = rm -rf
+MKDIR     = mkdir -p
+
+#
+# Compiler and linker flags
+#
+CFLAGS          = -Wall
+CXXFLAGS        = -Wall
+STATICOPT_LINK  = -static
+SHAREDOPT_CC    = -fPIC
+SHAREDOPT_CXX   = -fPIC
+DEBUGOPT_CC     = -O0 -g3
+DEBUGOPT_CXX    = -O0 -g3
+DEBUGOPT_LINK   = -O0 -g3
+RELEASEOPT_CC   = -O2
+RELEASEOPT_CXX  = -O2
+RELEASEOPT_LINK = -O2
+DEPFLAGS        = -MT $@ -MMD -MP -MF $(DEPPATH)/$*.Td
+
+#
+# System specific flags
+#
+SYSFLAGS = -lpthread
+
+#
+# System specific libraries
+#
+SYSLIBS =
